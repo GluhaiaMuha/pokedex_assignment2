@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+body{
+    background-color: #040C18;
+}
+
+.gradient__bg{
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 8% 23%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 8% 23%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 8% 23%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 8% 23%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 8% 23%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}
+
+.app__navbar{
+    display: flex;
+    justify-content:flex-start;
+    padding: 1.2rem 6rem;
+
+    margin: 0 1rem;
+}
+.about__container__img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about__container{
+    color: white;
+    margin: auto;
+    text-align: center;
+
+
+}
